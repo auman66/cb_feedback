@@ -1,0 +1,17 @@
+development:
+  developer_key: "WDH73V16VTHKRDVR8F3L"
+  request_timeout: 100
+  request_retries: 5
+  request_retry_wait: 2
+
+test:
+  developer_key: "WDH73V16VTHKRDVR8F3L"
+  request_timeout: 20
+  request_retries: 1
+  request_retry_wait: 1
+
+production:
+  developer_key: "WDH73V16VTHKRDVR8F3L"
+  request_timeout: 2
+  request_retries: 1
+  request_retry_wait: 1

@@ -22,6 +22,15 @@ end
 
 gem 'jquery-rails'
 
+gem "bootstrap-sass", ">= 2.1.0.0"
+gem "devise", ">= 2.1.2"
+gem "cancan", ">= 1.6.8"
+gem "rolify", ">= 3.2.0"
+gem "simple_form", ">= 2.0.3"
+gem 'surveyor'
+gem 'cb_api', :git => 'git://github.com/jasonlevenscb/cb_api.git'
+gem 'httparty'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
